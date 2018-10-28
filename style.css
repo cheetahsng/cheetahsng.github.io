@@ -1,0 +1,286 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  background-color: black;
+}
+a {
+  text-decoration: none;
+}
+.title {
+  font-size: 12vh;
+  font-weight: lighter;
+  display: block;
+
+}
+.subtitle {
+  font-size: 5vh;
+  font-weight: bold;
+}
+.link-button {
+  font-family: 'Roboto Slab', serif;
+  background-color: black;
+  color:white;
+  font-weight: lighter;
+  height: 4vh;
+  font-size: 3vh;
+  width: auto;
+  display: inline;
+  padding-left: 0.5vw;
+  padding-right: 0.5vw;
+  padding-top: 0.5vh;
+  padding-bottom: 0.5vh;
+  border-radius: 10px;
+}
+
+/* Header */
+.header {
+  background-color: yellow;
+  margin:0;
+  width: 100vw;
+  font-weight: lighter;
+  height: 10vh;
+  padding:0;
+  padding-bottom: 13.8vh;
+  padding-right: 2vh;
+  position: sticky;
+  z-index: 11111111111;
+}
+.header a {
+  color: black;
+}
+.header li {
+  display: inline-block;
+  padding: 1.5%;
+  font-size: 4vh;
+}
+.header-list {
+  padding:0;
+  margin:0;
+  /* padding-bottom: 10vh; */
+  padding-top: 0vh;
+  margin-top: 0vh;
+  float: right;
+  width: 75vw;
+  text-align: right;
+  padding-right: 2.5vw;
+}
+
+/* Body */
+.content {
+  position: static;
+}
+.content a {
+  color: inherit;
+}
+.full {
+  height:100vh;
+  width:100vw;
+  margin-left: 0;
+  display: table;
+  /* display: inline-flex; */
+  justify-content: center;
+  align-items: center;
+}
+.grey-back {
+  background-color: lightgray;
+}
+.ind-one {
+  background-image: url("images/andy-brunner-14324-unsplash.jpg");
+  background-size: cover;
+  color:yellow;
+}
+.ind-one_text {
+  padding-left: 3vw;
+  padding-bottom: 35vh;
+  padding-top:35vh;
+}
+.ind-two {
+  background-color: white;
+  color: black;
+  height: 80vh;
+}
+.i2 {
+  background-color: white;
+  color: black;
+  height: 80vh;
+}
+.ind-two_text {
+  padding-top: 35vh;
+  padding-bottom: 35vh;
+  text-align: center;
+}
+.i2t {
+  padding-top: 35vh;
+  padding-bottom: 35vh;
+  text-align: center;
+}
+.ind-three {
+  background-color: black;
+  color: white;
+  height: 10vh;
+}
+.i3 {
+  background-color: black;
+  color: white;
+  height: 10vh;
+}
+.ind-three_text {
+  padding-top: 35vh;
+  padding-bottom: 35vh;
+  text-align: center;
+}
+.i3t {
+  padding-top: 35vh;
+  padding-bottom: 35vh;
+  text-align: center;
+}
+.i3_lb {
+  background-color: white;
+  color:black;
+}
+.i4 {
+  background-color: yellow;
+  color: black;
+  height: 80vh;
+  width: 100vw;
+}
+.i4t {
+  padding-top: 35vh;
+  padding-bottom: 35vh;
+  text-align: center;
+  padding-left: 10vw;
+  padding-right: 10vw;
+}
+.i5 {
+  background-color: black;
+  background-image: url("images/cheetahrange.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  color: black;
+  height: 90vh;
+  width: 100vw;
+}
+.i5t {
+  padding-left: 3vw;
+  padding-top: 80vh;
+  padding-bottom: 5vh;
+  padding-right: 37.5vw;
+}
+.i6 {
+  /* background-color: yellow; */
+  color: black;
+  height: 100vh;
+  width:100vw;
+  background-image: url("images/david-clode-1045535-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.i6t {
+  padding-left: 35vw;
+  padding-top: 80vh;
+  padding-bottom: 3vh;
+  padding-right: 25vw;
+  text-align: center;
+}
+.i7 {
+  color:black;
+  background-image: url("images/ron-ansell-676691-unsplash.jpg");
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+}
+.i7t {
+  padding-left: 3vw;
+  padding-top: 80vh;
+  padding-bottom: 5vh;
+  padding-right: 3vw;
+  text-align: left;
+}
+.i7lb {
+  margin-top:0.5vh;
+}
+.i8 {
+  background-image: url("images/cara-fuller-291307-unsplash.jpg");
+}
+.i8t {
+  padding-left: 3vw;
+  padding-top: 80vh;
+  padding-bottom: 5vh;
+  padding-right: 3vw;
+}
+.i9 {
+  background-image:url("images/800px-Guepard-Royal_UnknownZoo.jpg")
+}
+.i10 {
+  background-image: url("images/christin-noelle-1076633-unsplash.jpg");
+}
+
+.si {
+  height: 100vh;
+  width:100vw;
+  float: right;
+  background-color: black;
+  position: absolute;
+  z-index: -111111;
+}
+.si img {
+  object-fit: cover;
+}
+.sd {
+  width: 25vw;
+  height: 91vh;
+  background-color: #ffffff9a;
+  z-index: 111;
+  text-align: center;
+  padding-top: 9vh;
+  padding-left: 1vw;
+  padding-right: 1vw;
+}
+.sf {
+  height: 100vh;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+.si2 {
+  float: left;
+}
+.sd2 {
+  float: right;
+}
+.st {
+  font-size: 10vh;
+}
+.small {
+  font-size: 3.5vh;
+}
+.slab {
+  font-family: 'Roboto Slab', serif;
+}
+.sf1 {
+  background-image: url("images/800px-Asian_cheetah.jpg");
+  background-size: cover;
+}
+.sf2 {
+  background-image: url("images/Cheetah_Hunting.jpg");
+  background-size: cover;
+}
+.sf3 {
+  background-image: url("images/Gepard_soemmeringii.jpg");
+  background-size: cover;
+}
+.sf4 {
+  background-image: url("images/Saharan-Cheetah-in-Ahaggar-Cultural-Park_Algeria_3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.sf5 {
+  background-image: url("images/Cheetah_Umfolozi_SouthAfrica_MWegmann-2.jpg");
+  background-size: cover;
+  height: 109vh;
+}
+.sd5 {
+  height: 100vh;
+}
