@@ -10,7 +10,18 @@ a {
   font-size: 12vh;
   font-weight: lighter;
   display: block;
-
+}
+.wt {
+  background-color: #0000009a;
+  /* width: auto; */
+  display: inline-block;
+  padding-left: 1vw;
+  padding-right: 1vw;
+  border-width: 0.5vw;
+  border-color: #00000000;
+  border-radius: 15px;
+  margin-bottom: 1vh;
+  color: #ffce00;
 }
 .subtitle {
   font-size: 5vh;
@@ -35,13 +46,13 @@ a {
 
 /* Header */
 .header {
-  background-color: yellow;
+  background-color: #ffce00;
   margin:0;
   width: 100vw;
   font-weight: lighter;
   height: 10vh;
   padding:0;
-  padding-bottom: 13.8vh;
+  padding-bottom: 10.8vh;
   padding-right: 2vh;
   position: sticky;
   z-index: 11111111111;
@@ -54,14 +65,22 @@ a {
   padding: 1.5%;
   font-size: 4vh;
 }
+.header-logo {
+  width: 40vh;
+  object-position: center;
+  vertical-align: middle;
+  padding-left: 3vw;
+  padding-top: 2vh;
+  padding-bottom: 0;
+}
 .header-list {
   padding:0;
   margin:0;
   /* padding-bottom: 10vh; */
   padding-top: 0vh;
-  margin-top: 0vh;
+  margin-top: -15vh;
   float: right;
-  width: 75vw;
+  width: 60vw;
   text-align: right;
   padding-right: 2.5vw;
 }
@@ -88,7 +107,7 @@ a {
 .ind-one {
   background-image: url("images/andy-brunner-14324-unsplash.jpg");
   background-size: cover;
-  color:yellow;
+  color:#ffce00;
 }
 .ind-one_text {
   padding-left: 3vw;
@@ -140,7 +159,7 @@ a {
   color:black;
 }
 .i4 {
-  background-color: yellow;
+  background-color: #ffce00;
   color: black;
   height: 80vh;
   width: 100vw;
@@ -154,7 +173,7 @@ a {
 }
 .i5 {
   background-color: black;
-  background-image: url("images/cheetahrange.png");
+  background-image: url("images/distribution.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -169,7 +188,7 @@ a {
   padding-right: 37.5vw;
 }
 .i6 {
-  /* background-color: yellow; */
+  /* background-color: #ffce00; */
   color: black;
   height: 100vh;
   width:100vw;
@@ -212,10 +231,11 @@ a {
   padding-right: 3vw;
 }
 .i9 {
-  background-image:url("images/800px-Guepard-Royal_UnknownZoo.jpg")
+  background-image:url("images/AdobeStock_48575299_Preview.jpeg")
 }
 .i10 {
-  background-image: url("images/christin-noelle-1076633-unsplash.jpg");
+  background-image: url("images/jean-wimmerlin-525996-unsplash.jpg");
+  background-position: center;
 }
 
 .si {
@@ -284,6 +304,9 @@ a {
 }
 .sd5 {
   height: 100vh;
+}
+.si5 {
+  color: white;
 }
 .footer {
   padding-top: 2.5vh;
